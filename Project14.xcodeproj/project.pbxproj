@@ -16,6 +16,7 @@
 		B74AB0032740219B002D021B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74AB0012740219B002D021B /* LaunchScreen.storyboard */; };
 		B74AB00D274023AF002D021B /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = B74AB00B274023AF002D021B /* whack.caf */; };
 		B74AB00E274023AF002D021B /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = B74AB00C274023AF002D021B /* whackBad.caf */; };
+		B74AB01027404FCA002D021B /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74AB00F27404FCA002D021B /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B74AB0022740219B002D021B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B74AB00B274023AF002D021B /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = whack.caf; path = "../../../HackingWithSwift-main/Classic/project14-files/Content/whack.caf"; sourceTree = "<group>"; };
 		B74AB00C274023AF002D021B /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = whackBad.caf; path = "../../../HackingWithSwift-main/Classic/project14-files/Content/whackBad.caf"; sourceTree = "<group>"; };
+		B74AB00F27404FCA002D021B /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				B74AAFF427402198002D021B /* GameScene.sks */,
 				B74AAFF827402198002D021B /* GameScene.swift */,
 				B74AAFFA27402198002D021B /* GameViewController.swift */,
+				B74AB00F27404FCA002D021B /* WhackSlot.swift */,
 				B74AAFFC27402198002D021B /* Main.storyboard */,
 				B74AAFFF2740219B002D021B /* Assets.xcassets */,
 				B74AB00B274023AF002D021B /* whack.caf */,
@@ -150,6 +153,7 @@
 			files = (
 				B74AAFF927402198002D021B /* GameScene.swift in Sources */,
 				B74AAFFB27402198002D021B /* GameViewController.swift in Sources */,
+				B74AB01027404FCA002D021B /* WhackSlot.swift in Sources */,
 				B74AAFF327402198002D021B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
